@@ -1,0 +1,16 @@
+{
+  "name": "type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/soohyeok/type.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
+  }
+}
