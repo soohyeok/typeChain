@@ -26,4 +26,6 @@ let blockchain:[Block] = [genesisBlock];
 
 console.log(blockchain);
 
+console.log('commit test');
+
 export {}
